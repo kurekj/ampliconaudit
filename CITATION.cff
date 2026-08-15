@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "ampliconaudit"
+abstract: >-
+  Post-hoc detection of silent failures in amplicon taxonomic pipelines:
+  steps that exit successfully and write well-formed output while the
+  result is quietly degraded or wrong. Combines step contracts, cohort
+  invariants and configuration-to-execution provenance.
+type: software
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/kurekj/ampliconaudit"
+keywords:
+  - bioinformatics
+  - amplicon sequencing
+  - 16S rRNA
+  - quality control
+  - silent failure
+  - provenance
+authors:
+  - family-names: Kurek
+    given-names: Jaroslaw
+    email: jaroslaw_kurek@sggw.edu.pl
+    affiliation: "Warsaw University of Life Sciences (SGGW)"

@@ -1,0 +1,8 @@
+{
+  "mode": "uchime_ref",
+  "input_reads": 49762,
+  "output_reads": 41750,
+  "chimeric_reads": 8012,
+  "db": "/pipeline/model/Cleaning_rescources/SILVA_138.1_SSURef_NR99_tax_silva.fasta",
+  "vsearch_cmd": "vsearch --uchime_ref /pipeline/00_CleanData/ablacja_PRJNA420417/SRR6331821/temp_chimera/SRR6331821_for_chimera.fasta --db /pipeline/model/Cleaning_rescources/SILVA_138.1_SSURef_NR99_tax_silva.fasta --nonchimeras /pipeline/00_CleanData/ablacja_PRJNA420417/SRR6331821/temp_chimera/SRR6331821_nonchimeras.fasta --threads 108"
+}

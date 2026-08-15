@@ -1,0 +1,34 @@
+{
+  "name": "qiime2-dada2",
+  "description": "16S/18S rRNA pipeline: reference-based chimera removal (vsearch), DADA2 denoising, BLAST species confirmation.",
+  "sample_marker": "classification_summary.json",
+  "contracts": [
+    {
+      "name": "step_contract:chimera",
+      "artifact": "{name}.chimera_stats.json",
+      "required_fields": ["mode", "input_reads", "output_reads"],
+      "expected": { "mode": "uchime_ref" },
+      "monotonic": [["output_reads", "input_reads"]],
+      "suspicious_zero": ["chimeric_reads"]
+    }
+  ],
+  "provenance": [
+    {
+      "name": "provenance:dada2",
+      "artifact": "dada2_invocation.json",
+      "executed_key": "passed_kwargs",
+      "configured_key": "expected_from_config"
+    }
+  ],
+  "invariants": [
+    {
+      "name": "cohort:species_confirmation",
+      "evidence_artifact": "blast_16s_raw.tsv",
+      "evidence_column": 2,
+      "evidence_threshold": 98.7,
+      "outcome_artifact": "classification_summary.json",
+      "outcome_field": "blast_16s_confirmed",
+      "message": "hits at >= 98.7% identity exist, yet no species was confirmed anywhere in the cohort"
+    }
+  ]
+}

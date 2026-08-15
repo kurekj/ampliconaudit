@@ -1,0 +1,602 @@
+[
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA420417/SRR6331821"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA420417/SRR6331821"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA420417/SRR6331915"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA420417/SRR6331915"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA420417/SRR6332312"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA420417/SRR6332312"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA420417/SRR6332355"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA420417/SRR6332355"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA420417/SRR6332372"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA420417/SRR6332372"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA420417/SRR6332390"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA420417/SRR6332390"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA420417/SRR6332410"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA420417/SRR6332410"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA420417/SRR6332414"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA420417/SRR6332414"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA420417/SRR6332784"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA420417/SRR6332784"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA420417/SRR6332816"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA420417/SRR6332816"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA420417/SRR6332822"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA420417/SRR6332822"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA420417/SRR6332951"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA420417/SRR6332951"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA420417/SRR6333096"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA420417/SRR6333096"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA420417/SRR6335453"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA420417/SRR6335453"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA420417/SRR6335639"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA420417/SRR6335639"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA420417/SRR6335702"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA420417/SRR6335702"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA732664/SRR14642229"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA732664/SRR14642229"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA732664/SRR14642238"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA732664/SRR14642238"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA732664/SRR14642249"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA732664/SRR14642249"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA732664/SRR14642315"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA732664/SRR14642315"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA732664/SRR14642316"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA732664/SRR14642316"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA732664/SRR14642335"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA732664/SRR14642335"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA732664/SRR14642347"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA732664/SRR14642347"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA732664/SRR14642351"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA732664/SRR14642351"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA732664/SRR14642362"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA732664/SRR14642362"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA732664/SRR14642374"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA732664/SRR14642374"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA732664/SRR14642382"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA732664/SRR14642382"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA732664/SRR14642384"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA732664/SRR14642384"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA732664/SRR14642404"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA732664/SRR14642404"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA732664/SRR14642412"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA732664/SRR14642412"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA732664/SRR14642430"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA732664/SRR14642430"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA732664/SRR14642446"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA732664/SRR14642446"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA763023/SRR15885103"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA763023/SRR15885103"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA763023/SRR15885113"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA763023/SRR15885113"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA763023/SRR15885179"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA763023/SRR15885179"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA763023/SRR15885218"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA763023/SRR15885218"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA763023/SRR15885232"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA763023/SRR15885232"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA763023/SRR15885253"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA763023/SRR15885253"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA763023/SRR15885268"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA763023/SRR15885268"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA763023/SRR15885289"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA763023/SRR15885289"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA763023/SRR15885303"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA763023/SRR15885303"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA763023/SRR15885313"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA763023/SRR15885313"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA763023/SRR15885354"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA763023/SRR15885354"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA763023/SRR15885373"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA763023/SRR15885373"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA763023/SRR15885381"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA763023/SRR15885381"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA763023/SRR15885382"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA763023/SRR15885382"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA763023/SRR15885406"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA763023/SRR15885406"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "ablacja_PRJNA763023/SRR15885411"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "ablacja_PRJNA763023/SRR15885411"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "mock/Zymo.R1"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "mock/Zymo.R1"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "FAIL",
+    "message": "{name}.chimera_stats.json: 'mode' is 'legacy_skip', expected 'uchime_ref' (the step did not execute the tool it reports)",
+    "sample": "mock/Zymo.R2"
+  },
+  {
+    "check": "step_contract:chimera",
+    "severity": "WARN",
+    "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
+    "sample": "mock/Zymo.R2"
+  }
+]

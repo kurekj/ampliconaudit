@@ -1,0 +1,8 @@
+{
+  "mode": "legacy_skip",
+  "input_reads": 56614,
+  "output_reads": 56614,
+  "chimeric_reads": 0,
+  "db": null,
+  "vsearch_cmd": null
+}
