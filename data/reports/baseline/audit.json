@@ -1798,5 +1798,11 @@
     "severity": "FAIL",
     "message": "parameter 'chimera_method' from configuration was NOT passed to the call",
     "sample": "mock/Zymo.R2"
+  },
+  {
+    "check": "cohort:species_confirmation",
+    "severity": "WARN",
+    "message": "outcome/evidence ratio 1584/4925 = 0.32 is below 0.5 (cohort of 50 samples)",
+    "sample": null
   }
 ]

@@ -1,10 +1,14 @@
 arm,check,severity,n
+baseline,cohort:species_confirmation,WARN,1
 baseline,provenance:dada2,FAIL,200
 baseline,step_contract:chimera,FAIL,50
 baseline,step_contract:chimera,WARN,50
+F1,cohort:species_confirmation,WARN,1
 F1,provenance:dada2,FAIL,200
 F2,provenance:dada2,FAIL,200
 F2,step_contract:chimera,FAIL,50
 F2,step_contract:chimera,WARN,50
+F3,cohort:species_confirmation,WARN,1
 F3,step_contract:chimera,FAIL,50
 F3,step_contract:chimera,WARN,50
+rank,cohort:species_confirmation,FAIL,1

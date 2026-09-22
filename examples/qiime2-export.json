@@ -1,0 +1,42 @@
+{
+  "name": "qiime2-export",
+  "description": "Stock QIIME 2 workflow after 'qiime tools export': q2-dada2 denoising statistics (one row per sample), the action provenance embedded in the feature table, and the q2-feature-classifier taxonomy.",
+  "layout": "run-table",
+  "sample_marker": "stats.tsv",
+  "sample_id_column": "sample-id",
+  "contracts": [
+    {
+      "name": "step_contract:dada2",
+      "artifact": "stats.tsv",
+      "required_fields": ["input", "filtered", "denoised", "merged", "non-chimeric"],
+      "monotonic": [["non-chimeric", "merged"], ["merged", "denoised"], ["denoised", "filtered"], ["filtered", "input"]],
+      "suspicious_equal": [["non-chimeric", "merged"]],
+      "suspicious_fraction": [["filtered", "input", 0.1]]
+    }
+  ],
+  "provenance": [
+    {
+      "name": "provenance:dada2",
+      "artifact": "table.qza",
+      "source": "qza",
+      "configured_file": "dada2_config.json",
+      "expected": {}
+    }
+  ],
+  "invariants": [
+    {
+      "name": "cohort:species_assignment",
+      "evidence_artifact": "taxonomy.tsv",
+      "evidence_id_column": null,
+      "evidence_column": 2,
+      "evidence_threshold": 0.9,
+      "evidence_pattern": "g__[^;\\s]",
+      "evidence_pattern_column": 1,
+      "outcome_artifact": "taxonomy.tsv",
+      "outcome_column": 1,
+      "outcome_pattern": "s__[^;\\s]",
+      "zero_severity": "WARN",
+      "message": "features resolved to genus at consensus >= 0.9 exist, yet no feature carries a species rank anywhere in the run"
+    }
+  ]
+}

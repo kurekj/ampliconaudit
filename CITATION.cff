@@ -7,7 +7,7 @@ abstract: >-
   result is quietly degraded or wrong. Combines step contracts, cohort
   invariants and configuration-to-execution provenance.
 type: software
-version: 1.0.0
+version: 1.1.0
 license: MIT
 repository-code: "https://github.com/kurekj/ampliconaudit"
 keywords:

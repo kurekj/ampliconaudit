@@ -71,11 +71,13 @@ def test_target_restricts_the_cohort(tmp_path: Path):
                     "chimeric_reads": 1}), encoding="utf-8")
     (good / "dada2_invocation.json").write_text(
         json.dumps({"passed_kwargs": {}, "expected_from_config": {}}), encoding="utf-8")
+    (good / "blast_16s_raw.tsv").write_text("asv1\tref1\t99.5\t250\t0\t0\n", encoding="utf-8")
 
     bad = tmp_path / "runB" / "S1"
     bad.mkdir(parents=True)
     shutil.copy(good / "classification_summary.json", bad)
     shutil.copy(good / "dada2_invocation.json", bad)
+    shutil.copy(good / "blast_16s_raw.tsv", bad)
     (bad / "S1.chimera_stats.json").write_text(
         json.dumps({"mode": "legacy_skip", "input_reads": 10, "output_reads": 10,
                     "chimeric_reads": 0}), encoding="utf-8")

@@ -10,7 +10,7 @@ Typical use::
 
     from ampliconaudit import ArtifactReader, profiles
 
-    report = profiles.get("qiime2-dada2").audit(ArtifactReader("artifacts/"))
+    report = profiles.get("qiime2-dada2-wrapper").audit(ArtifactReader("artifacts/"))
     if not report.clean:
         raise SystemExit(report.exit_code())
 """
@@ -25,7 +25,7 @@ from .profile import (
 )
 from . import checks, profiles
 
-__version__ = "1.0.0"
+__version__ = "1.1.0"
 
 __all__ = [
     "ArtifactReader",

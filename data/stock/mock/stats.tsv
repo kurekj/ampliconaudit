@@ -1,0 +1,4 @@
+sample-id	input	filtered	percentage of input passed filter	denoised	merged	percentage of input merged	non-chimeric	percentage of input non-chimeric
+#q2:types	numeric	numeric	numeric	numeric	numeric	numeric	numeric	numeric
+Zymo.R1	237422	177955	74.95	177066	168481	70.96	75725	31.89
+Zymo.R2	91486	60547	66.18	60432	59224	64.74	51686	56.5

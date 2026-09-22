@@ -1,0 +1,74 @@
+[
+  {
+    "check": "step_contract:dada2",
+    "severity": "WARN",
+    "message": "stats.tsv: filtered=201 is 0.2% of input=83662, below 10%: the step kept almost nothing, legal but implausible",
+    "sample": "ablacja_PRJNA763023/SRR15885103"
+  },
+  {
+    "check": "step_contract:dada2",
+    "severity": "WARN",
+    "message": "stats.tsv: non-chimeric=175 equals merged=175: the step removed nothing, legal but implausible",
+    "sample": "ablacja_PRJNA763023/SRR15885113"
+  },
+  {
+    "check": "step_contract:dada2",
+    "severity": "WARN",
+    "message": "stats.tsv: filtered=487 is 0.6% of input=79647, below 10%: the step kept almost nothing, legal but implausible",
+    "sample": "ablacja_PRJNA763023/SRR15885113"
+  },
+  {
+    "check": "step_contract:dada2",
+    "severity": "WARN",
+    "message": "stats.tsv: non-chimeric=265 equals merged=265: the step removed nothing, legal but implausible",
+    "sample": "ablacja_PRJNA763023/SRR15885179"
+  },
+  {
+    "check": "step_contract:dada2",
+    "severity": "WARN",
+    "message": "stats.tsv: filtered=499 is 0.6% of input=83438, below 10%: the step kept almost nothing, legal but implausible",
+    "sample": "ablacja_PRJNA763023/SRR15885179"
+  },
+  {
+    "check": "step_contract:dada2",
+    "severity": "WARN",
+    "message": "stats.tsv: non-chimeric=44 equals merged=44: the step removed nothing, legal but implausible",
+    "sample": "ablacja_PRJNA763023/SRR15885218"
+  },
+  {
+    "check": "step_contract:dada2",
+    "severity": "WARN",
+    "message": "stats.tsv: filtered=136 is 0.2% of input=85113, below 10%: the step kept almost nothing, legal but implausible",
+    "sample": "ablacja_PRJNA763023/SRR15885218"
+  },
+  {
+    "check": "step_contract:dada2",
+    "severity": "WARN",
+    "message": "stats.tsv: filtered=378 is 0.4% of input=85426, below 10%: the step kept almost nothing, legal but implausible",
+    "sample": "ablacja_PRJNA763023/SRR15885232"
+  },
+  {
+    "check": "step_contract:dada2",
+    "severity": "WARN",
+    "message": "stats.tsv: filtered=276 is 0.3% of input=84291, below 10%: the step kept almost nothing, legal but implausible",
+    "sample": "ablacja_PRJNA763023/SRR15885253"
+  },
+  {
+    "check": "step_contract:dada2",
+    "severity": "WARN",
+    "message": "stats.tsv: filtered=263 is 0.3% of input=81837, below 10%: the step kept almost nothing, legal but implausible",
+    "sample": "ablacja_PRJNA763023/SRR15885313"
+  },
+  {
+    "check": "step_contract:dada2",
+    "severity": "WARN",
+    "message": "stats.tsv: non-chimeric=44 equals merged=44: the step removed nothing, legal but implausible",
+    "sample": "ablacja_PRJNA763023/SRR15885373"
+  },
+  {
+    "check": "step_contract:dada2",
+    "severity": "WARN",
+    "message": "stats.tsv: filtered=164 is 0.2% of input=81115, below 10%: the step kept almost nothing, legal but implausible",
+    "sample": "ablacja_PRJNA763023/SRR15885373"
+  }
+]

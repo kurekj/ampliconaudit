@@ -598,5 +598,11 @@
     "severity": "WARN",
     "message": "{name}.chimera_stats.json: 'chimeric_reads' is 0: legal but implausible, check the reference database",
     "sample": "mock/Zymo.R2"
+  },
+  {
+    "check": "cohort:species_confirmation",
+    "severity": "WARN",
+    "message": "outcome/evidence ratio 1584/4925 = 0.32 is below 0.5 (cohort of 50 samples)",
+    "sample": null
   }
 ]

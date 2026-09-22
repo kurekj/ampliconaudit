@@ -1,6 +1,6 @@
 {
-  "name": "qiime2-dada2",
-  "description": "16S/18S rRNA pipeline: reference-based chimera removal (vsearch), DADA2 denoising, BLAST species confirmation.",
+  "name": "qiime2-dada2-wrapper",
+  "description": "Wrapper pipeline around QIIME 2 and DADA2 (16S/18S rRNA): vsearch reference-based chimera removal, DADA2 denoising, BLAST species confirmation. Reads the wrapper's own records, not stock QIIME 2 output.",
   "sample_marker": "classification_summary.json",
   "contracts": [
     {
@@ -24,10 +24,12 @@
     {
       "name": "cohort:species_confirmation",
       "evidence_artifact": "blast_16s_raw.tsv",
+      "evidence_id_column": 0,
       "evidence_column": 2,
       "evidence_threshold": 98.7,
       "outcome_artifact": "classification_summary.json",
       "outcome_field": "blast_16s_confirmed",
+      "min_outcome_ratio": 0.5,
       "message": "hits at >= 98.7% identity exist, yet no species was confirmed anywhere in the cohort"
     }
   ]

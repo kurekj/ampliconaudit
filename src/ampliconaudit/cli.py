@@ -24,8 +24,8 @@ def build_parser() -> argparse.ArgumentParser:
     )
     ap.add_argument("artifacts", type=Path,
                     help="root directory holding per-sample pipeline artifacts")
-    ap.add_argument("--profile", default="qiime2-dada2",
-                    help="built-in profile name (default: qiime2-dada2)")
+    ap.add_argument("--profile", default="qiime2-dada2-wrapper",
+                    help="built-in profile name (default: qiime2-dada2-wrapper)")
     ap.add_argument("--profile-file", type=Path, default=None,
                     help="path to a JSON/YAML profile; overrides --profile")
     ap.add_argument("--target", default="",

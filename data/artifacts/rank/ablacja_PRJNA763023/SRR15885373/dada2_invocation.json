@@ -1,0 +1,18 @@
+{
+  "function": "denoise_single",
+  "passed_kwargs": {
+    "trunc_len": 0,
+    "n_threads": 32,
+    "trim_left": 0,
+    "max_ee": 2.0,
+    "trunc_q": 2,
+    "pooling_method": "independent",
+    "chimera_method": "consensus"
+  },
+  "expected_from_config": {
+    "max_ee": 2.0,
+    "trunc_q": 2,
+    "pooling_method": "independent",
+    "chimera_method": "consensus"
+  }
+}

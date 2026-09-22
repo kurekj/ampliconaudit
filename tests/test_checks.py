@@ -81,6 +81,7 @@ def test_zero_chimeras_after_real_run_is_a_warning_not_a_failure(tmp_path: Path)
                     "output_reads": 1000, "chimeric_reads": 0}), encoding="utf-8")
     (d / "dada2_invocation.json").write_text(
         json.dumps({"passed_kwargs": {}, "expected_from_config": {}}), encoding="utf-8")
+    (d / "blast_16s_raw.tsv").write_text("asv1\tref1\t99.5\t250\t0\t0\n", encoding="utf-8")
 
     report = audit(tmp_path)
     assert report.n_fail == 0
@@ -99,6 +100,7 @@ def test_filter_cannot_emit_more_reads_than_it_received(tmp_path: Path):
                     "output_reads": 500, "chimeric_reads": 3}), encoding="utf-8")
     (d / "dada2_invocation.json").write_text(
         json.dumps({"passed_kwargs": {}, "expected_from_config": {}}), encoding="utf-8")
+    (d / "blast_16s_raw.tsv").write_text("asv1\tref1\t99.5\t250\t0\t0\n", encoding="utf-8")
 
     report = audit(tmp_path)
     assert "step_contract:chimera" in checks_that_failed(report)

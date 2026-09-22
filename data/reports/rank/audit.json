@@ -1,0 +1,8 @@
+[
+  {
+    "check": "cohort:species_confirmation",
+    "severity": "FAIL",
+    "message": "hits at >= 98.7% identity exist, yet no species was confirmed anywhere in the cohort (cohort of 50 samples)",
+    "sample": null
+  }
+]

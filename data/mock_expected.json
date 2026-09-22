@@ -1,0 +1,23 @@
+{
+  "source": "ZymoBIOMICS Microbial Community Standard (D6300), theoretical composition by 16S rRNA gene copy number, from the manufacturer's product sheet (https://www.zymoresearch.com/products/zymobiomics-microbial-community-standard), checked 2026-08-12. The two yeasts of the standard (Saccharomyces cerevisiae, Cryptococcus neoformans) are omitted: they do not amplify with 16S primers.",
+  "community": [
+    {"species": "Pseudomonas aeruginosa",  "genus": "Pseudomonas",    "expected_pct_16s": 4.6},
+    {"species": "Escherichia coli",         "genus": "Escherichia",    "expected_pct_16s": 10.0},
+    {"species": "Salmonella enterica",      "genus": "Salmonella",     "expected_pct_16s": 11.3},
+    {"species": "Lactobacillus fermentum",  "genus": "Lactobacillus",  "expected_pct_16s": 18.8},
+    {"species": "Enterococcus faecalis",    "genus": "Enterococcus",   "expected_pct_16s": 10.4},
+    {"species": "Staphylococcus aureus",    "genus": "Staphylococcus", "expected_pct_16s": 13.3},
+    {"species": "Listeria monocytogenes",   "genus": "Listeria",       "expected_pct_16s": 15.9},
+    {"species": "Bacillus subtilis",        "genus": "Bacillus",       "expected_pct_16s": 15.7}
+  ],
+  "species_synonyms": {
+    "Lactobacillus fermentum": ["Limosilactobacillus fermentum"],
+    "Bacillus subtilis": ["Bacillus spizizenii", "Bacillus subtilis subsp. spizizenii"],
+    "Escherichia coli": ["Shigella flexneri", "Shigella sonnei"]
+  },
+  "genus_synonyms": {
+    "Escherichia": ["Escherichia-Shigella"],
+    "Lactobacillus": ["Limosilactobacillus"]
+  },
+  "notes": "Synonyms follow the nomenclature of SILVA 138.1 and NCBI (Limosilactobacillus; Escherichia-Shigella merged at genus rank). Species that the V3-V4 region cannot separate from their neighbours (Escherichia coli / E. fergusonii, Bacillus subtilis / B. mojavensis) are NOT treated as synonyms, so a call to the neighbour counts as a false positive and a miss; the scoring is deliberately strict."
+}
